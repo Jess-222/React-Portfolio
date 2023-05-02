@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState} from "react"
 import Header from "./components/Header"
 
-import Main from "./components/Main"
+import Nav from "./components/Nav"
 
 function App() {
   const [pages] = useState([
@@ -28,7 +28,7 @@ function App() {
       currentPage={page}
       >
       </Header>
-      <Main page={page}/>
+      <Nav page={page}/>
     </div>
   );
 }

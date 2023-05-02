@@ -1,7 +1,7 @@
 function About() {
     return (
         <section>
-            Hello Hi hey how are you
+            This is my About section
         </section>
     )
 }
